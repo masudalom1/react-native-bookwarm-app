@@ -1,50 +1,61 @@
-# Welcome to your Expo app 👋
+# 📚 BookReview App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile app built with **React Native (Expo)** + **MongoDB, Express, Node.js backend** where users can recommend books, rate them, upload cover images, and explore what others are reading.  
+Users can also manage their own profile, delete their own posts, and logout securely.  
 
-## Get started
+---
+## 📱 Screenshots
 
-1. Install dependencies
+<img src="https://github.com/user-attachments/assets/909cfd46-1723-4ac5-ab1b-379992dceae5" width="200"/>
+<img src="https://github.com/user-attachments/assets/4c0753fc-02d4-431a-8bad-9261cc8d1639" width="200" alt="Screenshot 1" />
+<img src="https://github.com/user-attachments/assets/5f576a3c-c842-4e82-9fad-d35453282ba2" width="200"/>
 
-   ```bash
-   npm install
-   ```
+<img src="https://github.com/user-attachments/assets/1c3380a3-6ddd-4eb7-8121-2a10d761ed0f" width="200" alt="Screenshot 2" />
+<img src="https://github.com/user-attachments/assets/bc71fa2a-6487-4e5e-b2fd-1aacf0496c34" width="200" alt="Screenshot 3" />
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
+## ✨ Features
+✅ Create an account & login securely  
+✅ Share book recommendations with:
+- Title
+- Caption
+- Rating (1–5 stars)
+- Book cover image  
 
-In the output, you'll find options to open the app in a
+✅ Explore community feed  
+✅ See user profile with their posts  
+✅ Delete your own posts  
+✅ Logout anytime
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚀 Tech Stack
 
-## Get a fresh project
+| **Frontend** | **Backend** |
+|---------------|-------------|
+| React Native (Expo) | Node.js, Express |
+| React Navigation | MongoDB + Mongoose |
+| Expo Image Picker & FileSystem | Cloudinary (image upload) |
+| Zustand (state management) | JWT Authentication |
 
-When you're ready, run:
+---
 
+
+*(Place your screenshots in a `/screenshots` folder at the root of your project and use their relative paths here.)*
+
+---
+
+## 🧪 Installation & Run
+
+### Frontend
 ```bash
-npm run reset-project
-```
+# Clone the repo
+git clone https://github.com/your-username/bookreview-app.git
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+cd bookreview-app
 
-## Learn more
+# Install dependencies
+npm install
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Start the app
+npx expo start
